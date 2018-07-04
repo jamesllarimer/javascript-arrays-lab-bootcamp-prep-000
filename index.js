@@ -1,4 +1,5 @@
 // Add your functions and code here
+var kittens = []
 function destructivelyPrependKitten(name){
  kittens.push(name);
  return kittens;
