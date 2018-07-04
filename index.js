@@ -13,11 +13,11 @@ function prependKitten(name){
    return [name, ...kittens]
 }
 function removeLastKitten(name){
-var length =  kittens.length;
-  return kittens.splice(length);
+var length =  kittens.length - 1;
+  return kittens.splice(0, length);
 }
 function removeFirstKitten(name){
-  return kittens.splice(1)
+  return kittens.splice(0, 1)
 }
 function destructivelyRemoveFirstKitten(name){
  kittens.shift();
