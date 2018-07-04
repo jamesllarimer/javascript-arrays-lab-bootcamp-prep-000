@@ -1,10 +1,9 @@
 // Add your functions and code here
-var kittens = ['Milo', 'Otis', 'Garfield'];
-function destructivelyAppendKitten(name){
+function destructivelyAppendKitten(kittens, name){
   kittens.push(name);
   return kittens;
 }
-function destructivelyAppendKitten(name){
+function destructivelyAppendKitten(kittens, name){
   return kittens.unshift(name);
 }
 function appendKitten(name){
