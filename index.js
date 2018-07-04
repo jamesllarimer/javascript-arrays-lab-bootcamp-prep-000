@@ -11,9 +11,9 @@ function appendKitten(name){
 function prependKitten(name){
   return
 }
-function appendKitten(name){
+function removeLastKitten(name){
   return
 }
-function prependKitten(name){
+function removeFirstKitten(name){
   return
 }
