@@ -21,10 +21,10 @@ function removeFirstKitten(name){
   return kittens
 }
 function destructivelyRemoveFirstKitten(name){
- kittens.pop();
+ kittens.shift();
  return kittens;
 }
 function destructivelyRemoveLastKitten(name){
- kittens.unshift();
+ kittens.pop();
  return kittens;
 }
