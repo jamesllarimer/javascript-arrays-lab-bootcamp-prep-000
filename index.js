@@ -6,7 +6,7 @@ function destructivelyPrependKitten(name){
 }
 function destructivelyAppendKitten(name){
   kittens.unshift(name);
- return kittens;
+ return kittens;Int16Array
 }
 function appendKitten(name){
     return [...kittens, name]
