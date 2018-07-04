@@ -11,3 +11,9 @@ function appendKitten(name){
 function prependKitten(name){
   return
 }
+function appendKitten(name){
+  return
+}
+function prependKitten(name){
+  return
+}
