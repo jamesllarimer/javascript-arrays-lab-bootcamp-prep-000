@@ -13,16 +13,18 @@ function prependKitten(name){
    return [name, ...kittens]
 }
 function removeLastKitten(name){
-  return
+  kittens.pop();
+  return kittens;
 }
 function removeFirstKitten(name){
-  return
+  kittens.shift();
+  return kittens
 }
-function destructivelyPrependKitten(name){
+function destructivelyRemoveFirstKitten(name){
  kittens.pop();
  return kittens;
 }
-function destructivelyAppendKitten(name){
+function destructivelyRemoveLastKitten(name){
  kittens.unshift();
  return kittens;
 }
